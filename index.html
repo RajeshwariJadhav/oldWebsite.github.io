@@ -1,12 +1,174 @@
 <html>
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" >
+ <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="./style.css" rel="stylesheet" >
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
 <head>
-	<title>hex clock</title>
-	<link href="./style.css" rel="stylesheet" >
-</head>
+<style>
+.button {
+  position:fixed;
+  right:35%;
+  cursor:pointer;
+  top:85%; 
+} 
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.button').click(function() {
+       var target;
+       $("section").each(function(i, element) {
+         target = $(element).offset().top;
+         if (target - 10 > $(document).scrollTop()) {
+           return false; // break
+         }
+       });
+       $("html, body").animate({
+         scrollTop: target
+    }, 700);
+    });
+});
+</script>
+	<title>Rajeshwari Jadhav</title>
+	</head>
 <body id = 'body'>
-	<button id="changeColorMode">OWHOHOHOHOHO </button>
- <h1 id = "clock">00:00:00</h1>
- <p id = "hex"></p>
+	<div class="button"><img src="arrow.png" alt="aboutme" class="arrow" ></div>
+<div class="allthree">
+<div class="main">
+<div class="typewriter">
+  <h1>Rajeshwari Jadhav</h1>
+</div>
+ </div>
+<section>
+	<div class="aboutme">
+	<img src="aboutme.jpg" alt="aboutme" class="aboutimg" >
+<div class="right">
+<div class="container2">
+<div class = "icontitle">CRUX</div>
+  <img src="brain.png" alt="brain" class="image2">
+  <div class="overlay2">
+    <div class="text2"> I'm a first-year Math of Computation and prosective Computer Science & Engineering major at UCLA. 
+<br />
+<br />
+    While I was finishing my IB in Mumbai, India, I developed and nurtured a passion for technology and using it to make the world a better place, one program at a time! </div>
+  </div>
+</div>
+
+<div class="container2">
+  <div class = "icontitle">PASSION</div>
+  <img src="heart.png" alt="heart" class="image2">
+  <div class="overlay2">
+    <div class="text2"> I absolutely enjoy solving riddles and problem solving in general, part of reason why you'll find me coding on a Friday night!
+<br />
+<br />
+I founded <a href="https://sistersofstrength.wixsite.com/mysite" target="_blank">Sisters of Strength</a> in Pune, India and held workshops encouraging women in technological fields.
+<br />
+<br />
+    I'm also a dancer and a singer, and I love to write. 
+<br />
+<br />
+    Lately, I've been enjoying designing and wish to pursue it through UI/UX. 
+</div>
+  </div>
+</div>
+ 
+
+<div class="container2">
+  <div class = "icontitle">WORK</div>
+  <img src="hand.png" alt="hand" class="image2">
+  <div class="overlay2">
+    <div class="text2"> I'm an intern with UCLA ACM Hack, and I'm responsible for contributing to the curriculum development for teaching CS to beginners. 
+<br />
+<br />
+    I'm also a member of The Rocket Project at UCLA, and I'm currently working on the radio(XBee) and an arduino to receive information from the rocket that we launch.
+<br />
+<br />
+    I love working on creative side projects too!(found on the next page)
+  </div>
+  </div>
+</div>
+</div>
+ </div>
+</section>
+
+<section>
+<div class="Projects">
+  <img src="projects.jpg" alt="aboutme" class="aboutimg" >
+<div class = "up">
+ <div class="container">
+  <img src="logo3.png" alt="logo3" class="image">
+  <div class="overlay">
+    <div class="text">Web application <a href="https://github.com/RajeshwariJadhav/Clause-Separator" target="_blank"> Rebalanz</a> is a web application that balances your schedule ensuring all major requirements are met while taking into account unit restrictions, prerequisites and quarters left (HTML, CSS, JS). </div>
+  </div>
+</div>
+
+ <div class="container">
+  <img src="ioslogo.png" alt="logo2" class="image">
+  <div class="overlay">
+    <div class="text">This is an <a href="https://github.com/RajeshwariJadhav/Clause-Separator" target="_blank"> iOS</a> app in progress (Swift) </div>
+  </div>
+</div>
+
+ <div class="container">
+  <img src="logo2.png" alt="logo2" class="image">
+  <div class="overlay">
+    <div class="text">Web application<a href="https://github.com/RajeshwariJadhav/Clause-Separator" target="_blank"> Tryangl</a> is a social media space empowering users to seek out new experiences through the power of digital experiences (HTML, CSS, JS) </div>
+  </div>
+</div>
+</div><!-- closes up -->
+
+<div class = "down">
+<div class="container">
+  <img src="logo1.png" alt="logo1" class="image">
+  <div class="overlay"> 
+    <div class="text">Program <a href="https://github.com/RajeshwariJadhav/Clause-Separator" target="_blank">Clause Separator</a> is a program that performs an analysis of language and displays the clauses in the sentence! (C++)
+    </div>
+  </div>
+</div>
+
+<div class="container3">
+  <img src="logo5.png" alt="logo5" class="image">
+  <div class="overlay">
+    <div class="text">This <a href="https://github.com/RajeshwariJadhav/RajeshwariJadhav.github.io" target="_blank"> personal website </a> (HTML, CSS, JS) 
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="logo4.jpg" alt="logo4" class="image">
+  <div class="overlay">
+    <div class="text">In <a href="https://github.com/n-yuen/ares-communication-temp" target="_blank"> The Rocket Project</a> I'm responsible for receiving information fast from the launched rocket using a radio(XBee) and an arduino.
+    </div>
+  </div>
+</div>
+
+</div><!-- closes down -->
+</div><!-- closes project -->
+</section>
+<section>
+
+<div class="Contact">
+  <img src="contact.jpg" alt="aboutme" class="aboutimg" >
+
+  <div class = "contacticons">
+ <img src="GH.png" alt="aboutme" class="iconc" >
+ <img src="email.png" alt="aboutme" class="iconc" >
+ <img src="linkedin.png" alt="aboutme" class="iconc" >
+</div>
+
+<div class = "links">
+    <a href="https://github.com/RajeshwariJadhav" target="_blank">GitHub</a>
+    <a href="mailto:rajeshwari.jadhav6@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/rajeshwari-jadhav-647188142" target="_blank">LinkedIn</a>
+</div>
+
+</div>
+</div>
+</section>
  <script src = './script.js' type = 'text/javascript'></script>
+
 </body>
 </html>

@@ -12,6 +12,9 @@ font-family: 'Merriweather', serif;
 	align-items: center;
 	}
 
+p {
+  font-size: 24px;
+}
 
 .allthree
 {
@@ -36,14 +39,14 @@ font-family: 'Merriweather', serif;
 	background-color: 
 	background-size:100%;
 	height: 100%;
-	background-color:#DA7074;
+	background-image: linear-gradient(lightblue,lightgreen)
 
 
 }
 /*this is for the stripes*/
 .projects 
 {
-background-color: #124024;
+background-color: black;
 background-size: 100%;
 height:100%;
 }
@@ -51,9 +54,7 @@ height:100%;
 
 .Contact
 {
-		background-color:#DA7074;
-background-size: 100%;
-height:100%;
+	background-image: linear-gradient(lightgreen,green)
 }
 
 p
@@ -89,11 +90,11 @@ p
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #DA7074; }
+  50% { border-color: green; }
 }
 
 .typewriter{
-color:white;
+color:black;
 font-size: 40px;
 text-align: center;
 	height:120px;
@@ -107,14 +108,9 @@ font-family: 'Merriweather', serif;
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
-  width: 23%;
+  width: 15%;
 
-}
 
-.container3 {
-  position: relative;
-  width: 23%;
-  height: 29%;
 
 }
 
@@ -123,18 +119,18 @@ font-family: 'Merriweather', serif;
   width: 100%;
   height: auto;
   margin-left: 20px;
-  border-radius: 10%;
+  border-width: 20px;
 }
 
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
-	  
-margin-left: 20px;
+	  margin-left: 20px;
+
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #DA7074;
+  background-color: pink;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -142,21 +138,17 @@ margin-left: 20px;
   transition: .3s ease;
 }
 
-
 /* When you mouse over the container, the overlay text will "zoom" in display */
 .container:hover .overlay {
   transform: scale(1);
     border-radius: 10%
-}
-.container3:hover .overlay {
-  transform: scale(1);
-    border-radius: 10%
+
 }
 
 /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
 .text {
   color: white;
-  font-size: 18px;
+  font-size: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -165,12 +157,28 @@ margin-left: 20px;
 }
 
 
-.right{
-	display: flex;
-		flex-direction: row;
-
+.mypic{
+	height:50%;
+	width: auto;
+	border-radius: 50%;
 }
 
+.left{
+display: flex;
+margin-left: 100px;
+	justify-content: flex-start;
+}
+
+.right{
+	margin-left: 300px;
+	margin-right: 100px;
+display: flex;
+	justify-content: flex-end;
+}
+.leftright{
+	display: flex;
+	align-items: row;
+}
 .up{
 	display: flex;
 	justify-content: center;
@@ -184,114 +192,14 @@ margin-left: 20px;
 	justify-content: center;
 	justify-content: flex-end;
 		justify-content: space-around;
-		margin-top: 20px;
+		margin-top: 150px;
 	}
 
 .aboutimg
 {
 	height:100px;
 	width: auto;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
-
-/*_-----------------*/
-/* Container needed to position the overlay. Adjust the width as needed */
-.container2 {
-  position: relative;
-  width: 30%;
-
-
-
-
-}
-
-/* Make the image to responsive */
-.image2 {
-
-  width: 100%;
-  height: auto;
-  margin-left: 70px;
-  	margin-top: 50px;
-
-  border-width: 20px;
-
-}
-
-/* The overlay effect (full height and width) - lays on top of the container and over the image */
-.overlay2 {
-	  margin-left: 70px;
-
-
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #DA7074;
-   background-color: 
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  transform: scale(0);
-  transition: .3s ease;
-
-}
-
-/* When you mouse over the container, the overlay text will "zoom" in display */
-.container2:hover .overlay2 {
-  transform: scale(1);
-    border-radius: 10%;
-
-
-}
-
-/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
-.text2 {
-font-family: 'Alegreya Sans SC', sans-serif;
-  color: white;
-  font-size: 22px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-
-}
-.icontitle{
-	font-family: 'Oswald', sans-serif;
-font-size:80px;
-font-weight: 20px;
-font-color:white;
-margin-left: 140px;
-}
-
-
-.contacticons
-{
-	display: flex;
-	justify-content: center;
-	justify-content: space-around;
-}
-.links{
-	margin-top: 70px;
-	display: flex;
-	justify-content: center;
-	justify-content: space-around;
-
-}
-
-
-.iconc{
-margin-top: 170px;
-	width:100px;
-	height: 100px;
-}
-
-
-.arrow{
-	width: 50%
-
-}
-
-
 
 
