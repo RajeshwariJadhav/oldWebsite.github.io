@@ -5,8 +5,9 @@ function myFunction() {
     popup.classList.toggle("show");
 }
 
-$("button").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".second").offset().top},
-        'slow');
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
 });
