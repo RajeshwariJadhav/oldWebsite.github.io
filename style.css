@@ -96,9 +96,9 @@ p
 color:white;
 font-size: 40px;
 text-align: center;
-	height:120px;
+	height:13%;
 font-family: 'Merriweather', serif;
-	padding-bottom: 10px;
+	padding-bottom: 0.5%;
 }
 
 
@@ -122,14 +122,14 @@ font-family: 'Merriweather', serif;
 .image {
   width: 100%;
   height: auto;
-  margin-left: 20px;
+  margin-left: 5%;
   border-radius: 10%;
 }
 
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
 	  
-margin-left: 20px;
+margin-left: 5%;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -184,14 +184,14 @@ margin-left: 20px;
 	justify-content: center;
 	justify-content: flex-end;
 		justify-content: space-around;
-		margin-top: 20px;
+		
 	}
 
 .aboutimg
 {
-	height:100px;
+	height:10%;
 	width: auto;
-	margin-bottom: 20px;
+	margin-bottom: 2%;
 }
 
 /*_-----------------*/
@@ -210,16 +210,14 @@ margin-left: 20px;
 
   width: 100%;
   height: auto;
-  margin-left: 70px;
-  	margin-top: 50px;
-
-  border-width: 20px;
+  margin-left: 20%;
+  	margin-top: 10%;
 
 }
 
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay2 {
-	  margin-left: 70px;
+	  margin-left: 20%;
 
 
   position: absolute;
@@ -261,7 +259,7 @@ font-family: 'Alegreya Sans SC', sans-serif;
 font-size:80px;
 font-weight: 20px;
 font-color:white;
-margin-left: 140px;
+margin-left: 40%;
 }
 
 
@@ -272,7 +270,7 @@ margin-left: 140px;
 	justify-content: space-around;
 }
 .links{
-	margin-top: 70px;
+	margin-top: 2%;
 	display: flex;
 	justify-content: center;
 	justify-content: space-around;
@@ -281,9 +279,9 @@ margin-left: 140px;
 
 
 .iconc{
-margin-top: 170px;
-	width:100px;
-	height: 100px;
+margin-top: 12%;
+	width:7%;
+	height: 12%;
 }
 
 
