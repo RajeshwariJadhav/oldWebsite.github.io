@@ -116,6 +116,12 @@ font-family: 'Merriweather', serif;
   height: 29%;
 
 }
+.container4 {
+  position: relative;
+  width: 18%;
+  height: 29%;
+
+}
 
 /* Make the image to responsive */
 .image {
@@ -151,6 +157,11 @@ margin-left: 5%;
   transform: scale(1);
     border-radius: 10%
 }
+.container4:hover .overlay {
+  transform: scale(1);
+    border-radius: 10%
+}
+
 
 /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
 .text {
@@ -291,5 +302,9 @@ margin-top: 12%;
 }
 
 
-
-
+.dm{
+   height: 100%;
+  width: auto;
+  margin-left: 5%;
+  border-radius: 10%;
+}
