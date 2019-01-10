@@ -308,3 +308,17 @@ margin-top: 12%;
   margin-left: 5%;
   border-radius: 10%;
 }
+.whole{
+  height: 100%;
+  background-color: black;
+}
+.video{
+  height: 80%;
+}
+.title{
+  font-family: 'Oswald', sans-serif;
+font-size:400%;
+font-weight: 20%;
+color:#DA7074;
+
+}
